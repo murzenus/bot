@@ -20,6 +20,7 @@ const welcome = () => {
 }
 
 bot.once('spawn', welcome)
+}
 
 bot.loadPlugin(pathfinder)
 bot.loadPlugin(armorManager)
