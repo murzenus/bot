@@ -11,12 +11,12 @@ const armorManager = require('mineflayer-armor-manager')
 const bot = mineflayer.createBot({
     host: process.argv[2],
     port: process.argv[3],
-    username: process.argv[4] || 'pvp_Bot',
+    username: process.argv[4],
     version: 1.19
 })
 
 const welcome = () => {
-  bot.chat('/login murzen')
+  bot.chat('/login murzenus')
 }
 
 bot.once('spawn', welcome)
