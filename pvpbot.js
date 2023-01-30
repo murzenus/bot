@@ -25,7 +25,7 @@ bot.loadPlugin(pathfinder)
 bot.loadPlugin(armorManager)
 
 const VIEW_RANGE = 16
-const FOLLOW_RANGE = 2
+const FOLLOW_RANGE = 16
 const ATTACK_RANGE = 3.75
 
 let fighting = false
