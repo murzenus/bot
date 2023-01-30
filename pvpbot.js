@@ -15,6 +15,12 @@ const bot = mineflayer.createBot({
     version: 1.19
 })
 
+const welcome = () => {
+  bot.chat('/login murzen')
+}
+
+bot.once('spawn', welcome)
+
 bot.loadPlugin(pathfinder)
 bot.loadPlugin(armorManager)
 
