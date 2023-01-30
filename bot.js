@@ -5,7 +5,7 @@ const bot = mineflayer.createBot({
   port: parseInt(process.argv[3]),
   username: process.argv[4] ,
   password: process.argv[5],
-  version: 1.16
+  version: 1.19
 })
 
 const welcome = () => {
